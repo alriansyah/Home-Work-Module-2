@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  background-color: rgba(54, 53, 53, 0.6);;
+}
+
+ /* Navbar */
+.navbar {
+  margin: auto;
+  background-color: #0fdbc0;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.7);
+}
+
+.navbar .logo {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-weight: bold
+}
+
+/* Main */
+main {
+  width: 90%;
+  margin: auto;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content .card {
+  margin-top: 40px;
+  margin-right: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  background-color: #ccd5f1;
+  box-sizing: border-box;
+}
+
+.content .card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+}
+
+.content .card h2, .content .card p {
+ text-align: center;
+}
+
+.content .card h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+.content .card p {
+  margin-bottom: 5px;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content .card button {
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  background-color: #10e910;
+  font-weight: bold;
+  cursor: pointer;
+}
+
