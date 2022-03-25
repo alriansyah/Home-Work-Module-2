@@ -13,7 +13,9 @@ function App() {
         <MainContent />
       </main>
 
-      <footer></footer>
+      <footer>
+        
+      </footer>
     </div>
   );
 }

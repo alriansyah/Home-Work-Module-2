@@ -1,7 +1,7 @@
 const NavigationBar = () => {
     return(
         <nav className="navbar">
-            <div class="logo">Track Info</div>
+            <div className="logo">Track Info</div>
         </nav>
     );
 }
